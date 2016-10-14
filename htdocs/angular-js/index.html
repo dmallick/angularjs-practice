@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="MyApp">
+    <head>
+        <title>AngularJS  Tutorial Series</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body >
+        <div ng-controller="HelloController">Hi {{name}}, welcome to AngularJS Tutorial Series ...awesome awesome 2</div>
+
+        <!-- JS Scripts -->
+        <script src="js/angular.min.js"></script>
+        <script src="js/angular-route.min.js"></script>
+        <script>
+            angular.module("MyApp", [])
+                    .controller("HelloController", function($scope) {
+                        $scope.name = "Rodrick"
+                    });
+        </script>
+		
+		Write some text in textbox:
+	<input type="text" ng-model="sometext" />
+	<h1 ng-show="sometext">Hello {{ sometext }}</h1>
+	</body>
+</html>
