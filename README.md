@@ -26,3 +26,9 @@ Copy the following JavaScript file D:/xampp/htdocs/angular-js/bower_components/a
 
 
 D:\xampp\htdocs\angular-js>http-server -o. -o
+
+Main Components:
+===============================================
+Creating a Module
+Controller given in controller-example.html
+encapsulating module and controller in module-directive-injs-example.html
