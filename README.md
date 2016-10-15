@@ -27,6 +27,8 @@ Copy the following JavaScript file D:/xampp/htdocs/angular-js/bower_components/a
 
 D:\xampp\htdocs\angular-js>http-server -o. -o
 
+http://www.w3schools.com/angular/angular_services.asp
+
 Main Components:
 ===============================================
 Creating a Module
@@ -55,3 +57,4 @@ In AngularJS, a service is a function, or object, that is available for, and lim
 $location service has methods which return information about the location of the current web page
 The $http Service The service makes a request to the server, and lets your application handle the response. - http-service-example.html
 
+$timeout: timeout-example.html
